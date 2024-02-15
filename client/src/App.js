@@ -4,12 +4,16 @@ import Navbar from "./Navbar";
 
 // components
 import Home from "./home/Home";
+import Board from "./board/Board";
 
 function App() {
   let component;
   switch (window.location.pathname) {
     case "/":
       component = <Home />;
+      break;
+    case "/board":
+      component = <Board />;
       break;
     default:
       break;
