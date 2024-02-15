@@ -1,0 +1,58 @@
+// ------
+// LAYOUT
+// ------
+
+$device-types: mobile desktop;
+
+$grid-breakpoints: (
+  xs: 0,
+  // iPhone SE 2nd Gen + 1px
+  midsm: 376px,
+  sm: 444px,
+  // 300px modal + 50px padding + 5vw margin
+  md: 768px,
+  lg: 992px,
+  xl: 1200px,
+);
+
+$se-height: 668px;
+$se-width: 375px;
+
+$row-max-width-desktop: 1280px;
+$row-max-width-mobile: 460px;
+
+$gutter-col: 24px;
+$gutter-page-desktop: 24px;
+$gutter-page-mobile: 12px;
+
+$nav-height-desktop: 65px;
+$nav-height-mobile: 45px;
+$messaging-banner-height: 44px;
+
+$z-index-nav: 100;
+
+// XWD Gameplay page elements
+$phone-keyboard-height: 120px;
+$tablet-keyboard-height: 256px;
+$mobile-clue-bar-height: 48px;
+$desktop-clue-bar-height: 60px;
+
+// XWD Gameplay page breakpoints
+$puzzle-header-max-width: 1132px;
+$puzzle-body-max-width: 1132px;
+$puzzle-toolbar-max-width: 1605px;
+$note-content-max-width: 580px;
+$print-button-max-width: 264px;
+
+// XWD Header and Toolbar
+$mobile-header-height: 45px;
+$desktop-header-height: 65px;
+$free-preview-bannerheight: 44px;
+$free-preview-bannermobile: 68px;
+$free-preview-bannermobile-landscape: 33px;
+
+// XWD Keyboard
+$tablet-keyboard-height-landscape: 250px;
+$tablet-keyboard-height-portrait: 300px;
+
+$breathing-room: 10px;

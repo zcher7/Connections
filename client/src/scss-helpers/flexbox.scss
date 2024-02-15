@@ -1,0 +1,23 @@
+@import './mixins.scss';
+
+.flexContainer {
+  @include flexbox(column, center, center);
+
+  width: 100%;
+}
+
+.expandToRow {
+  composes: flexContainer;
+}
+
+@include view-width-min(sm) {
+  .expandToRow {
+    @include flexbox(row, center, space-around);
+  }
+}
+
+@include view-width-max(md) {
+  .mobileColumn {
+    @include flexbox(column);
+  }
+}
