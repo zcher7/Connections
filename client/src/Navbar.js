@@ -3,6 +3,9 @@ export default function Navbar() {
         <a href="/" className="site-title">Connections</a>
         <ul>
             <li>
+                <a href="/viewer">Board</a>
+            </li>
+            <li>
                 <a href="/queries">Packs</a>
             </li>
             <li>

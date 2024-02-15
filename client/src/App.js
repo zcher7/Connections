@@ -23,3 +23,7 @@ function App() {
 }
 
 export default App;
+
+// How to start server
+// cd server, nodemon index
+// new terminal, cd client, npm start
