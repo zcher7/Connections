@@ -48,27 +48,3 @@ nav li:hover {
 .modal-content {
     background-color: #494b4d;
 }
-
-.board {
-    text-align: center;
-    font-size: 18px;
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-}
-
-.card {
-    width: 100%;
-    height: 100%;
-    display: flex;
-    justify-content: center;
-    align-content: center;
-    flex-wrap: wrap;
-    border-radius: 6px;
-    position: relative;
-    cursor: pointer;
-    font-weight: bold;
-    text-transform: uppercase;
-    user-select: none;
-    -webkit-user-select: none;
-    -webkit-touch-callout: none;
-    -webkit-tap-highlight-color: transparent;
-}
