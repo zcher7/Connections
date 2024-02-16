@@ -36,6 +36,7 @@
 .boardContainer {
   position: relative;
   margin: 24px auto;
+  border-width: 0px;
 }
 
 .boardComponentsContainer, .cardsContainer, .solvedCategoriesContainer {

@@ -1,14 +1,30 @@
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+    margin: 0px;
+    padding: 0px;
     background-color: #4f5963;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+    font-family: 'NYT-Franklin';
+    -webkit-user-select: none; /* Safari */
+    -ms-user-select: none; /* IE 10 and IE 11 */
+    user-select: none; /* Standard syntax */
+    --desktop-item-width: 150px;
+    --desktop-item-height: 80px;
+    --desktop-max-item-size: 200px;
+    --mobile-item-size: 22.5vw; /* rn mobile is size as opposed to height and width bc h&w same for mobile */
+    --mobile-max-item-size: 22.5vw;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.pz-game-screen,
+.pz-game-field {
+  display: flex;
+  flex-direction: column;
+}
+
+.pz-game-field {
+  background: #fff;
+  flex: 1 0 auto;
 }
