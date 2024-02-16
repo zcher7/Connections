@@ -11,6 +11,12 @@ const Cards = () => {
         zIndex: 0
     }
 
+    const cardStyleSelected = {
+        backgroundColor: "rgb(90,89,78)",
+        color: "rgb(255,255,255)",
+        zIndex: 1
+    }
+
     const onSubmitForm = async e => {
         e.preventDefault();
         Game.execute();
@@ -31,7 +37,7 @@ const Cards = () => {
                                         LIGHT
                                     </label>
                                     <label htmlFor ="inner-card-1" className="label labelXXLg" data-flip-config="{'translate':true,'scale':true,'opacity':true}"
-                                    data-flip-id="DESERT" style={cardStyle}>
+                                    data-flip-id="DESERT" style={cardStyleSelected}>
                                         <input className="visually-hidden" type="checkbox" id="inner-card-1" name="inner-card-1" value="DESERT"/>
                                         DESERT
                                     </label>

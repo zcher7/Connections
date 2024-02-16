@@ -28,7 +28,6 @@ $board-section-gap: '24px';
   @extend .boardDimensionsDesktop;
   position: relative;
   margin: #{$board-section-gap} auto;
-  border-color: #FFFFFF
 }
 
 .boardComponentsContainer {
